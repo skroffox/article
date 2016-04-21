@@ -1,7 +1,11 @@
 <p>
-	Titre: <%= @article.title %>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
 </p>
 
-<p>
-	Article: <%= @article.text %>
-</p>
+<%= link_to 'Back', articles_path %>
